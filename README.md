@@ -2,6 +2,8 @@
 
 Sometimes we want to make one grid column span scross multiple columns in our *Layout Grid*. This is not a native feature of the *Layout Grid* control, but this module makes it possible to accpomplish that feature. 
 
+![](images/ColumnSpanningView.png)
+
 ## Version
 Initial 1.0
 
@@ -67,9 +69,20 @@ function getClass(cl) {
 1. span-2: Adding this class causes the control to span across 2 columns
 2. span-3: Adding this class causes the control to span across 3 columns
 
-**Note:**
+## Notes
+1. Spanned columns will not be visible in the rendered page
+2. Control content will not automatically stretch to fit the cell width. This may require additional CSS
 
-Spanned columns will not be visible in the rendered page
+**Example CSS for stretching TextBoxes (input tags) to fit the cell**
+```css
+/*selects all controls that have span tags*/
+[class*="span-"] {
+	display: flex;
+	input[type='text'] {
+		flex: 1;
+	}
+}
+```
 
 ## Working with Stadium Repos
 Stadium Repos are not static. They change as additional features are added and bugs are fixed. Using the right method to work with Stadium Repos allows for upgrading them in a controlled manner. How to use and update application repos is described here 
