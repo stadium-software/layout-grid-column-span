@@ -1,6 +1,6 @@
 # Layout Grid Column Span
 
-Sometimes we want to make one grid column span scross multiple columns in our *Layout Grid*. This is not a native feature of the *Layout Grid* control, but this module makes it possible to accpomplish that feature. 
+Sometimes we want to make one grid cell span scross multiple columns in our *Layout Grid*. This is not a native feature of the *Layout Grid* control, but this module makes it possible to accomplish it. 
 
 ![](images/ColumnSpanningView.png)
 
@@ -63,7 +63,7 @@ function getClass(cl) {
 ## Page
 1. Drag a *Layout Grid* control to a page
 2. Drag other controls into the *Layout Grid*
-3. For controls that should span multiple columns, add the class span-# (# is the number of columns to span) into the control classes property
+3. For controls inside cells that should span multiple columns, add the class span-# (# is the number of columns to span) into the control classes property
 
 **Examples**
 1. span-2: Adding this class causes the control to span across 2 columns
