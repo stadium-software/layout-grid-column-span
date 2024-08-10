@@ -82,12 +82,12 @@ function getClass(cl) {
     input[type='text'], 
     textarea,
     select {
-		flex: 1;
-	}
-	> div:has(select) {
-		flex: 1;
-		display: flex;
-	}
+        flex: 1;
+    }
+    > div:has(select) {
+        flex: 1;
+        display: flex;
+    }
 }
 ```
 
