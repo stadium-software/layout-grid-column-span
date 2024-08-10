@@ -70,7 +70,7 @@ function getClass(cl) {
 2. span-3: Adding this class causes the control to span across 3 columns
 
 ## Notes
-1. Spanned columns will not be visible in the rendered page
+1. Spanned cells will not be visible in the rendered page
 2. Control content will not automatically stretch to fit the cell width. This may require additional CSS
 
 **Example CSS for stretching TextBoxes (input tags) to fit the cell**
