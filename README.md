@@ -78,7 +78,7 @@ function getClass(cl) {
 /* CSS selects all controls that have span tags */
 /* and makes textbox and dropdown controls stretch to fill the available space*/
 [class*="span-"] {
-	display: flex;
+    display: flex;
     input[type='text'], 
     textarea,
     select {
