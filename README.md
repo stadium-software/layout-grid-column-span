@@ -79,7 +79,7 @@ function getClass(cl) {
 /* and makes textbox and dropdown controls stretch to fill the available space*/
 [class*="span-"] {
 	display: flex;
-	input[type='text'], 
+    input[type='text'], 
     textarea,
     select {
 		flex: 1;
