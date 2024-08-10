@@ -76,10 +76,12 @@ function getClass(cl) {
 **Example CSS for stretching TextBoxes (input tags) to fit the cell**
 ```css
 /* CSS selects all controls that have span tags */
-/* and makes textbox controls stretch to fill the available space*/
+/* and makes textbox and dropdown controls stretch to fill the available space*/
 [class*="span-"] {
 	display: flex;
-	input[type='text'] {
+	input[type='text'], 
+    textarea,
+    select {
 		flex: 1;
 	}
 }
