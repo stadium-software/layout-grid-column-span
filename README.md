@@ -1,6 +1,6 @@
 # Layout Grid Column Span
 
-Sometimes we want to make one grid cell span scross multiple columns in our *Layout Grid*. This is not a native feature of the *Layout Grid* control, but this module makes it possible to accomplish it. 
+Sometimes we want to make one grid cell span across multiple columns in our *Layout Grid*. This is not a native feature of the *Layout Grid* control, but this module makes it possible to accomplish it. 
 
 ![](images/ColumnSpanningView.png)
 
@@ -16,7 +16,7 @@ Initial 1.0
 1. Create a Global Script called "ScriptName"
 2. Add the input parameters below to the Global Script
 3. Drag a *JavaScript* action into the script
-4. Add the Javascript below into the JavaScript code property
+4. Add the Javascript below unchanged into the JavaScript code property
 ```javascript
 /* Stadium Script v1.0 https://github.com/stadium-software/layout-grid-column-span */
 let allGrids = document.querySelectorAll(".grid-layout:has([class*=span-])");
